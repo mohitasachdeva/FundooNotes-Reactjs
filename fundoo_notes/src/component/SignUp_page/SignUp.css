@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 58%;
+    height: 80%;
+    border-radius: 5px;
+    border: 1px solid #b2bec3;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.3rem;
+}
+
+.Left{
+    width: 55%;
+    height: 100%;
+    /* border: 2px solid blue; */
+}
+.g-form{
+    /* border: 2px solid red; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.g-form h3{
+    color: rgb(47, 47, 47);
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding-left:0.4rem;
+    
+}
+
+
+.first-c{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    /* border: 2px solid pink; */
+    justify-content: space-evenly
+
+}
+
+.textFeild{
+    align-content: center;
+    text-transform: capitalize;
+}
+.second-c{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    align-items: center;
+    /* border: 2px solid pink; */
+    justify-content: center;
+}
+.second-c-1{
+    width: 100%;
+    height: 45%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 0.6rem;
+}
+
+.second-c-1 p{
+    font-size: 0.8rem;
+    color: gray;
+}
+.second-c-1 a{
+    text-decoration: none;
+    font-size:0.9rem;
+    color:rgb(80, 80, 252);
+}
+.third-c{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    /* align-items: center; */
+    /* border: 2px solid pink; */
+    justify-content: space-evenly
+}
+.forth-c{
+    /* border: 2px solid green; */
+    height: 10%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.forth-c p{
+    text-align:start;
+    padding-left: 0.6rem;
+    font-size: 0.8rem;
+
+
+}
+
+
+.fifty-c{
+
+
+    /* border: 2px solid green; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+.fifty-c a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color:rgb(80, 80, 252);
+
+}
+
+.Right{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-imgbox{
+    height: 60%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.right-imgbox img{
+    height: 85%;
+    width: 62%; 
+    /* border: 2px solid green; */
+
+}
+.Right p{
+    text-align: center;
+    margin: auto;
+    max-width: 16rem;
+    height: 30%;
+    font-weight: bold;
+    color: rgb(117, 115, 115);
+
+}

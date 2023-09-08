@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main-Container-1{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.2rem
+}
+
+.takeNote1-1{
+    width: 42.5%;
+    height: 25%;
+}
+
+.card-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.textFeild-1{
+    width: 73%;
+    /* border: 2px solid black; */
+    margin-left: 0.6rem;
+}
+
+.cardicons-1{
+    /* border: 2px solid black; */
+    width: 27%;
+    display: flex;
+
+    justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.dashBoard-con{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+     margin-top: 5.05rem;
+
+}
+
+.dashBoard-container{
+     /* border: 1px solid black; */
+    width: 75%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+
+
+
+}
