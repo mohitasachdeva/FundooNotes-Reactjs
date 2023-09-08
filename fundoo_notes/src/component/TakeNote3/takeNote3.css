@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.takeNote1-3{
+    height:auto;
+    width: 18vw;
+    margin: 0.3rem;
+    margin-bottom: 0.3rem;
+    /* border: 2px solid blue; */
+
+}
+
+.card-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    /* border: 2px solid red; */
+
+}
+
+.textFeild-3{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-left: 0.6rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.textFeild-3 h3{
+    font-size: 0.85rem;
+    color: rgb(100, 100, 100);
+    margin-bottom: 0.8rem;
+    font-weight: 100;
+    letter-spacing:0.2ch;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+.noteTitle{
+    font-size: 0.96rem;
+    color: rgb(100, 100, 100);
+    width: 100%;
+    /* border: 2px solid blue; */
+    object-fit: contain;
+
+}
+
+
+.cardicons-3{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.title-desc-pinIcon{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+    display: flex;
+
+}
+
+.pin-icon{
+    margin-left: 0.6rem;
+    border: 2px solid transparent;
+    /* opacity: 0.5; */
+    size: 50%;
+}
+
+.popupBox{
+    /* border: 2px solid red; */
+    background-color: aqua;
+    width: 40vw;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popupBox-child{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 1rem;
+}
+
+.cardicons-2{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0.3rem; */
+}

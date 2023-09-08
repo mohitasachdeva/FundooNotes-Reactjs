@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+
+.main-cointainer{
+    border: 1px solid rgb(207, 205, 205);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menuIcon{
+    /* border: 3px solid red; */
+    margin-left: -2rem;
+    
+
+}
+
+
+.header-logo{
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    margin-left: -5.5rem;
+}
+.header-logo img{
+    padding-right: 0.5rem;
+    height:40px;
+    cursor: pointer;
+}
+
+.header-logo h1{
+    font-weight: 100;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+    cursor: pointer;
+
+}
+
+.header-searchbar{
+    width: 50%;
+    background-color: rgb(243, 242, 242);
+    height: 70%;
+    border-radius: 5px ;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.search-bar{
+    margin-right:2rem;
+}
+
+.right-side-icons{
+    width: 20%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: -2rem;
+}
+.App-icon{
+    margin-left: 2rem;
+}
